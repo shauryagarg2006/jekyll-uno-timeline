@@ -1,4 +1,3 @@
-console.log("github_api loaded");
 $(document).ready(function() {
   users = []
   repos = []
@@ -10,9 +9,7 @@ $(document).ready(function() {
         users.push($(this).attr('user'))
       }
   })
-  //console.log(1, repos)
   for (var i = 0; i < repos.length; i++) {
-    //console.log("URL: "+"https://api.github.com/repos/" + repos[i]);
     $.ajax({
     type: "GET",
     url: "https://api.github.com/repos/" + repos[i],

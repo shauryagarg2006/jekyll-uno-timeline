@@ -6,7 +6,6 @@ baseurl: ''
 profilepic: '/images/sgarg.png'
 bkimage: '/images/bk1.jpg'
 google_analytics: UA-XXXXXX-X
-font_awesome: 'XXXXXXXXXX.js'
 
 author:
   name: 'Shaurya Garg'
